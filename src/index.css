@@ -1,0 +1,7 @@
+.container_phrase{
+    min-width: 280px;
+    max-width: 500px;
+    border: solid 2px #6894B4;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
