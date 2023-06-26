@@ -1,4 +1,4 @@
-
+import "./PhrasesCard.css"
 
 const PhrasesCard = ({data}) => {
   return (

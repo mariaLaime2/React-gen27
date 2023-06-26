@@ -1,15 +1,28 @@
-.container_phrase{
-    min-width: 280px;
-    max-width: 500px;
-    border: solid 2px #6894B4;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body{
+    padding: 0.5rem;
+}
+.title{
+    font-weight: bold;
+    -webkit-text-stroke: 2px #FFA645;
+    color: #ffffff;
+}
+
+
 .container_app{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
+    gap: 50px;
     flex-direction: column;
     align-items: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,0 +1,16 @@
+.container_phrase{
+    min-height: 159px;
+    max-width: 450px;
+    padding: 20px 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: solid 2px #6894B4;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container_phrase > p{
+    padding-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    color:#727272;
+}

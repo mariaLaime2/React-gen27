@@ -2,8 +2,8 @@ import "./Button.css"
 
 export const Button = ({handleClick}) => {
   return (
-    <div>
-        <button onClick={handleClick}>Probar mi suerte</button>
-    </div>
+    <>
+        <button onClick={handleClick} className="button_container btn-animated">Probar mi suerte</button>
+    </>
   )
 }

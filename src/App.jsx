@@ -8,22 +8,31 @@ import {getRandomNumber} from "./utils/getRandom"
 import { Button } from './components/Button/Button'
 
 
-
+const backroundImgs=["fondo1.png", "fondo2.png","fondo3.png", "fondo4.png"]
 function App() {
   const randomPhrase= ()=>phrases[getRandomNumber(phrases.length -1)]
+  const randomImg= ()=>backroundImgs[getRandomNumber(backroundImgs.length -1)]
+  const [backroundImg, setBackroundImg] = useState(randomImg())
   const [phrase, setPhrase] = useState(randomPhrase())
   const changePhrase=()=>{
     let newPhrase= randomPhrase();
+    let newBackround= randomImg();
     while (newPhrase== phrase) {
      newPhrase= randomPhrase();
     }
+    while(newBackround=== backroundImg){
+      newBackround=randomImg()
+    }
     setPhrase(newPhrase)
+    setBackroundImg(newBackround)
   }
 
-  return (
-    <div className='container_app'>
 
-     <h1>Galletas de la fortuna</h1>
+
+  return (
+    <div className='container_app' style={{backgroundImage:`url("${backroundImg}")`}}>
+
+     <h1 className='title'>GALLETAS DE LA FORTUNA</h1>
      <Button handleClick={changePhrase} />
      <PhrasesCard data={phrase}/>
      <p><b>Fuente:</b>{randomPhrase.author}</p>

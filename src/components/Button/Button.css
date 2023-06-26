@@ -1,0 +1,12 @@
+.button_container{
+    width: 168px;
+    height: 37px;
+    color: #893446;
+    border: #893446 solid 2px;
+    border-radius: 5px;
+    background-color: #FFA645;
+    font-size: 15px;
+}
+.button_container:active{
+    transform: scale(0.9);
+}
