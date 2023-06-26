@@ -7,6 +7,8 @@ import phrases from "./data/phrases.json"
 import {getRandomNumber} from "./utils/getRandom"
 import { Button } from './components/Button/Button'
 
+
+
 function App() {
   const randomPhrase= ()=>phrases[getRandomNumber(phrases.length -1)]
   const [phrase, setPhrase] = useState(randomPhrase())
@@ -19,14 +21,15 @@ function App() {
   }
 
   return (
-    <>
+    <div className='container_app'>
+
      <h1>Galletas de la fortuna</h1>
      <Button handleClick={changePhrase} />
      <PhrasesCard data={phrase}/>
      <p><b>Fuente:</b>{randomPhrase.author}</p>
      
       
-    </>
+    </div>
   )
 }
 
