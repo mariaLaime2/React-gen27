@@ -6,6 +6,7 @@ import PhrasesCard from './components/PhrasesCard/PhrasesCard'
 import phrases from "./data/phrases.json"
 import {getRandomNumber} from "./utils/getRandom"
 import { Button } from './components/Button/Button'
+import Author from './components/Author/Author'
 
 
 const backroundImgs=["fondo1.png", "fondo2.png","fondo3.png", "fondo4.png"]
@@ -30,15 +31,18 @@ function App() {
 
 
   return (
-    <div className='container_app' style={{backgroundImage:`url("${backroundImg}")`}}>
+    <section className='container_app' style={{backgroundImage:`url("${backroundImg}")`}}>
 
-     <h1 className='title'>GALLETAS DE LA FORTUNA</h1>
+     <h1 className='title'><b>GALLETAS DE LA FORTUNA</b></h1>
+    
      <Button handleClick={changePhrase} />
      <PhrasesCard data={phrase}/>
-     <p><b>Fuente:</b>{randomPhrase.author}</p>
+     <Author  author= {phrase}/>
+
+    
      
       
-    </div>
+    </section>
   )
 }
 

@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    padding: 0.5rem;
+    padding: 0rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .title{
+    font-size: 30px;
     font-weight: bold;
     -webkit-text-stroke: 2px #FFA645;
     color: #ffffff;
+    text-align: center;
 }
 
 
@@ -21,7 +24,6 @@ body{
     gap: 50px;
     flex-direction: column;
     align-items: center;
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
