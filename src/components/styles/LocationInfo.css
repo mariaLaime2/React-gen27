@@ -1,0 +1,33 @@
+.location{
+    width: 700px;
+    height: 136px;
+    border-radius: 10px;
+    background-color:#062226 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 15px #021418;
+    margin: 20px;
+   
+}
+.location__name{
+    color: var(--color-green);
+    text-align: center;
+    padding-top: 12px;
+}
+.location__list{
+    display: flex;
+    justify-content: space-around;
+}
+.location__item{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
+}
+.location__label{
+    color: #FFFF;
+}
+.location__item-value{
+    color: #aaa;
+}

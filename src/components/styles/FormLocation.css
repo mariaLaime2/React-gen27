@@ -1,0 +1,19 @@
+.form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form__input{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px 0px 0px 8px;
+}
+.form__button{
+    width: 80px;
+    height: 35px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(15, 177, 15);
+    color: white;
+}
+ .form__button:active{
+    transform: scale(0.9);
+}
