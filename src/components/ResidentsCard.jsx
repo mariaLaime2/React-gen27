@@ -10,7 +10,7 @@ const ResidentsCard = ({url}) => {
     .then(resp=>setCharacter(resp.data))
     .catch(error=>console.error(error))
     }, [])
-    console.log(character)
+
     
   return (
     <article className="resident">

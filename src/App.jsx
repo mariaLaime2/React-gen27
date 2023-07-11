@@ -9,6 +9,7 @@ import FormLocation from "./components/FormLocation";
 import image1 from "./assets/image1.png";
 import image2 from "./assets/image2.png";
 import HeadBoard from "./components/HeadBoard";
+import Loader from "./components/Loader";
 
 function App() {
   const [location, setLocation] = useState();
@@ -40,7 +41,7 @@ function App() {
       </div>
 
       {isLoading ? (
-        <h1>Loading...</h1>
+        <Loader/>
       ) : hasError ? (
         <h1> ❌ Hey! you must provide and id from 1 to 126🥺</h1>
       ) : (
