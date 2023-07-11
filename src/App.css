@@ -1,21 +1,21 @@
-.imeg-container{
-    position: static;
+.imeg-container {
+  position: static;
 }
-.form-container{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    min-width: 500px;
+.form-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 500px;
 }
-.location-container{
-    display: flex;
-    justify-content: center;
-    min-width: 500px;
+.location-container {
+  display: flex;
+  justify-content: center;
+  min-width: 500px;
 }
-.resident-container{
-    display: flex;
-    gap: 2em;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 500px;
+.resident-container {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 500px;
 }

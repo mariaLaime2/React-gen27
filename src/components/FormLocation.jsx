@@ -1,25 +1,23 @@
-import getRandomNumber from "../utils/getRandomNumber"
-import "./styles/FormLocation.css"
+import getRandomNumber from "../utils/getRandomNumber";
+import "./styles/FormLocation.css";
 
-
-const FormLocation = ({setIdLocation}) => {
-   
-    const handleSubmit= e =>{
-        e.preventDefault()
-        const inputValue=e.target.inputLocation.value.trim()
-        if(inputValue === ""|| inputValue === "0"){
-            setIdLocation(getRandomNumber(126))
-        }else{
-            setIdLocation(inputValue)
-        }
-        e.target.inputLocation.value=""
+const FormLocation = ({ setIdLocation }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const inputValue = e.target.inputLocation.value.trim();
+    if (inputValue === "" || inputValue === "0") {
+      setIdLocation(getRandomNumber(126));
+    } else {
+      setIdLocation(inputValue);
     }
+    e.target.inputLocation.value = "";
+  };
   return (
     <form onSubmit={handleSubmit} className="form">
-        <input name="inputLocation" type="text" className="form__input" />
-        <button className="form__button">search</button>
+      <input name="inputLocation" type="text" className="form__input" />
+      <button className="form__button">search</button>
     </form>
-  )
-}
+  );
+};
 
-export default FormLocation
+export default FormLocation;

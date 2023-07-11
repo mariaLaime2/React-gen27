@@ -41,7 +41,7 @@ function App() {
       </div>
 
       {isLoading ? (
-        <Loader/>
+        <Loader />
       ) : hasError ? (
         <h1> ❌ Hey! you must provide and id from 1 to 126🥺</h1>
       ) : (
