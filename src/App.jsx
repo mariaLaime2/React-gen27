@@ -43,7 +43,9 @@ function App() {
       {isLoading ? (
         <Loader />
       ) : hasError ? (
-        <h1> ❌ Hey! you must provide and id from 1 to 126🥺</h1>
+        <div className="hasError-Cotainer">
+          <h1> ❌ Hey! you must provide and id from 1 to 126🥺</h1>
+        </div>
       ) : (
         <>
           <div className="location-container">
