@@ -4,9 +4,7 @@ import {setTrainerG} from "../store/slices/trainerName.slice"
 import { useNavigate } from "react-router-dom"
 
 const HomePage = () => {
-  
-  
-    const inputTrainer = useRef()
+   const inputTrainer = useRef()
     const dispatch = useDispatch()
     const navigate= useNavigate()
     const handleSubmit = e => {
