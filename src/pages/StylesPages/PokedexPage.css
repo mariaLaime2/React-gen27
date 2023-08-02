@@ -1,0 +1,55 @@
+.pokedex__page-head {
+  min-width: 500px;
+}
+
+.pokedexPage__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 70px 50px 70px;
+  min-width: 300px;
+}
+.pokedexPage__description {
+  min-width: 300px;
+}
+.pokedexPage__description-p {
+  font-size: 15px;
+}
+.pokedexPage__description-span {
+  color: red;
+  font-weight: 800;
+}
+.pokedex__forms {
+  display: flex;
+  gap: 10px;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+.pokedex__form {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  box-shadow: 5px 5px 15px gray;
+}
+.pokedex__form-input {
+  min-width: 230px;
+  font-size: 14px;
+}
+.pokedex__form-button {
+  min-width: 70px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(221, 60, 60);
+}
+.pokedex__form-button:hover {
+  background-color: rgb(248, 100, 100);
+}
+.pokedexPage__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

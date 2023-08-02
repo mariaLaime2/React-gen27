@@ -1,0 +1,10 @@
+.SelectType__container{
+    min-width: 300px;
+}
+.SelectType__option{
+  min-width: 100px;
+  font-size: 15px;
+}
+.SelectType__options{
+    font-size: 15px;
+}
