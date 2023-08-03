@@ -1,62 +1,81 @@
-.homePage__title {
-  color: red;
-  font-size: 30px;
-  min-width: 350px;
+.homePage__title{
+    
+    color: red;
+    font-size: 30px;
+  
+    min-width: 350px;
+    
 }
-.homePage__container-img {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
+.homePage__container-img{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
 }
-.homePage__img {
-  width: 500px;
-  min-width: 350px;
-  padding-top: 20px;
-  padding-bottom: 85px;
+.homePage__img{
+    width: 500px;
+    min-width: 350px;
+    padding-top: 20px;
+    padding-bottom: 85px;
+
 }
-.homePage__paragraph {
-  font-weight: 500;
-  font-size: 15px;
+.homePage__paragraph{
+    
+    font-weight: 500;
+    font-size: 15px;
+   
 }
-.homePage__container {
-  width: 100%;
-  min-width: 350px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  gap: 50px;
-  padding: 0px 10px 0px 10px;
+.homePage__container{
+
+    width: 100%;
+    min-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   justify-content: center;
+   gap: 50px;
+   padding: 0px 10px 0px 10px;
+
+   
 }
-.homePage__container-form {
-  display: flex;
-  justify-content: center;
-  min-width: 400px;
+.homePage__container-form{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
 }
-.homePage__form {
-  display: flex;
-  flex-wrap: wrap;
-  padding-right: 15px;
+.homePage__form{
+   
+   
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 15px;
 }
-.homePage__form-input {
-  min-width: 250px;
-  height: 30px;
-  box-shadow: 5px 5px 15px gray;
-  font-size: 15px;
+.homePage__form-input{
+    
+    
+    min-width: 250px;
+    height: 30px;
+    box-shadow: 5px 5px 15px gray;
+    font-size: 15px;
+    
 }
-.homePage__form-button {
-  height: 31px;
-  width: 100px;
-  font-weight: 500;
-  font-size: 15px;
-  background-color: rgb(163, 35, 35);
-  color: rgb(250, 247, 247);
+.homePage__form-button{
+    height: 31px;
+    width: 100px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgb(163, 35, 35);
+    color: rgb(250, 247, 247);
+    
+    
 }
-.homePage__form-button:hover {
-  background-color: rgb(182, 48, 48);
+.homePage__form-button:hover{
+    background-color:  rgb(182, 48, 48);
 }
-.homePage__footer-img {
-  padding-top: 20px;
-  min-width: 400%;
-  height: 200px;
+.homePage__footer-img{
+    padding-top: 20px;
+    min-width: 400%;
+    height: 200px;
 }

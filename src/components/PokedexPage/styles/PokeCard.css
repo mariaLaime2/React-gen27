@@ -1,6 +1,6 @@
 .pokecard{
     width: 100%;
-    max-width: 350px;
+    max-width: 320px;
     border-radius: 0.7em;
     border: 0.7em solid #ccc;
     cursor: pointer;
