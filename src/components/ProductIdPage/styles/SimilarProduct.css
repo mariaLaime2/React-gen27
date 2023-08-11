@@ -1,0 +1,18 @@
+.similarProduct__container{
+  
+   display: flex;
+   flex-direction: column;
+   padding: 20px 50px 20px 50px;
+   gap: 50px;
+}
+.similarProducts__container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.similarProduct__container-title{
+  color:rgb(97, 95, 95) ;
+  font-size: 15px;
+
+}

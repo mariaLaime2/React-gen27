@@ -1,0 +1,44 @@
+
+.menu {
+    position: relative;
+    cursor: pointer;
+  }
+  .category-h3{
+    font-size: 15px;
+    color: rgb(61, 60, 60);
+  }
+  .menu.open .category-list {
+    display: block;
+  }
+  
+  .category-list {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  
+  .category-list li {
+    padding: 3px;
+    cursor: pointer;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .category-list li:hover {
+    background-color: #e0e0e0;
+  }
+  .bxs-down-arrow{
+    font-size: 10px;
+  }
+  .hr{
+    background-color: gray;
+  }
