@@ -1,5 +1,6 @@
 
 import "./App.css";
+import Sidernav from "./components/Sidernav";
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-    
+    <Sidernav/>
     </>
   )
 }
