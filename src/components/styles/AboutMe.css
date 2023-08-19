@@ -1,0 +1,57 @@
+.aboutMe-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutMe__div {
+  min-width: 50%;
+
+  padding: 50px 0 50px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutMe__skills {
+  border-radius: 10px;
+  padding: 50px 0 50px 0;
+}
+.aboutMe__skills__container {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.aboutMe__skills__img {
+  border: ridge 4px rgb(179, 127, 228);
+
+  padding: 19px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px rgb(159, 119, 196);
+  width: 120px;
+  height: 150px;
+  transition: widht 0.3s, height 0.3s;
+}
+.aboutMe__skills__img:hover {
+  width: 130px;
+  height: 160px;
+}
+.aboutMe__skills-img {
+  width: 70px;
+}
+.aboutMe__h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  color: rgb(59, 10, 104);
+  text-align: center;
+}
+.aboutMe__h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  color: rgb(59, 10, 104);
+  text-align: center;
+}
+.aboutMe__skills-h2 {
+  color: rgb(170, 90, 245);
+  font-weight: 700;
+}
