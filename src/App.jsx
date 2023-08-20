@@ -7,13 +7,15 @@ import Sidernav from "./components/Sidernav";
 
 function App() {
   return (
-    <div className="container">
+    
+    <div>
       <Sidernav />
       <Main />
       <AboutMe />
       <Proyects />
       <Contact />
     </div>
+  
   );
 }
 
