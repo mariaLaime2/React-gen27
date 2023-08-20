@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import EcommerceReact from "../assets/Ecommerce-React.png";
+import EcommerceReact from "../assets/Ecommerce-react.png";
 import ecommercejs from "../assets/ecommercejs.png";
 import rickAndMorty from "../assets/Rick.png";
 import pokedex from "../assets/pokedex.png";
