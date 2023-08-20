@@ -8,7 +8,7 @@ import Sidernav from "./components/Sidernav";
 function App() {
   return (
     
-    <div>
+    <div className="div__container">
       <Sidernav />
       <Main />
       <AboutMe />
