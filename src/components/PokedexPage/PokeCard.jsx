@@ -26,6 +26,7 @@ const PokeCard = ({ url }) => {
           {pokemon?.types.map((typeInfo) => (
             <li className="pokecard__typename" key={typeInfo.type.url}>{typeInfo.type.name}</li>
           ))}
+          </ul>
           <hr className="pokecard__hr" />
           <ul className="pokecard__stats">
             {pokemon?.stats.map((statInfo) => (
@@ -35,7 +36,6 @@ const PokeCard = ({ url }) => {
               </li>
             ))}
           </ul>
-        </ul>
       </section>
     </article>
   );

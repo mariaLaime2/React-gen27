@@ -18,8 +18,8 @@
 .pokecard__image{
     position: absolute;
     width: 60%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%; /*50 % a la ixquierda*/
+    transform: translateX(-50%);/*PARA Centrar la imagen*/
     top: 1.5em;
 }
 .pokecard__body{
@@ -27,7 +27,7 @@
 }
 .pokecard__name{
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalize;/*poner la primera letra en mayuscula con css*/
     font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 0.2em;
@@ -41,7 +41,7 @@
 .pokecard__typename{
     text-transform: capitalize;
 }
-.pokecard__typename:nth-child(2)::before{
+.pokecard__typename:nth-child(2)::before{ /*para cuando tenemos dos subtitulos seleccionamos el segundo solo si tiene 2 le va piner "/" sino no*/
     content: "/";
     padding-right: 0.5em;
 }

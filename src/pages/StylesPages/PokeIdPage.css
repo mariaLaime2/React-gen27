@@ -1,103 +1,10 @@
-.idPage__container {
-  border: solid 8px rgb(66, 66, 109);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  min-width: 350px;
-  max-width: 500px;
-}
-.idPage__container-img {
-  background: linear-gradient(
-    177.03deg,
-    #323569 -11.97%,
-    #454aa8 57.49%,
-    #787dda 135.64%
-  );
+.idPage__container-cards{
+  border: solid 2px rgb(15, 15, 163);
   display: flex;
   justify-content: center;
-  min-width: 350px;
-  padding-top: 20px;
-}
-.pokeId__img {
-  width: 300px;
-}
-.idPage__id {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  min-width: 350px;
-  padding-bottom: 10px;
-}
-.idPage__idNumber {
-  width: 40px;
-  border: solid 1px grey;
-  border-radius: 2px;
-  font-size: 25px;
-  text-align: center;
-}
-.idPage__name {
-  font-size: 25px;
-}
-.idPage__description {
-  padding-top: 10px;
+  width: 100%;
+  min-width: 300px;
+  
+  
 
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  min-width: 350px;
-  padding-bottom: 30px;
-}
-.idPage__description-p {
-  display: flex;
-  flex-direction: column;
-  font-size: 14px;
-  font-weight: 900;
-}
-.idPage__description-span {
-  font-weight: 400;
-  font-size: 11px;
-}
-
-.idPage__ability__container {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
-  min-width: 350px;
-}
-.idPage__ability {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding-bottom: 10px;
-}
-.idPage__ability-title {
-  font-size: 20px;
-  text-align: center;
-}
-.idPage__abilities-p {
-  border: solid 1px black;
-  font-size: 15px;
-  width: 100px;
-  height: 20px;
-  border-radius: 9px;
-  text-align: center;
-  background-color: rgb(150, 58, 150);
-  color: white;
-}
-
-.idPage__type {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.idPage__type-p {
-  border: solid 1px grey;
-  width: 100px;
-  height: 20px;
-  border-radius: 9px;
-  text-align: center;
-  font-size: 15px;
-  color: rgb(141, 138, 138);
-  font-weight: 800;
 }

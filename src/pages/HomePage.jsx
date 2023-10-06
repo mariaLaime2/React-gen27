@@ -40,8 +40,10 @@ const HomePage = () => {
           </form>
         </div>
       </div>
-
+      <footer className="homePage__footer">
+      
       <img className="homePage__footer-img" src={pokedexBaner} alt="" />
+      </footer>
     </>
   );
 };

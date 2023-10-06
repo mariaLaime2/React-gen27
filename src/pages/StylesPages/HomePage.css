@@ -1,3 +1,17 @@
+.homePage__container{
+
+    
+    min-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+   justify-content: center;
+   gap: 40px;
+   
+
+   border: solid 2px green;
+}
 .homePage__title{
     
     color: red;
@@ -10,14 +24,14 @@
     
     display: flex;
     justify-content: center;
-    padding-top: 80px;
     
+    border: solid 1px red;
+    padding: 20px;
 }
 .homePage__img{
     width: 500px;
-    min-width: 350px;
-    padding-top: 20px;
-    padding-bottom: 85px;
+    min-width: 300px;
+    
 
 }
 .homePage__paragraph{
@@ -26,36 +40,29 @@
     font-size: 15px;
    
 }
-.homePage__container{
 
-    width: 100%;
-    min-width: 350px;
-
-    display: flex;
-    flex-direction: column;
+.homePage__container-description{
+    border: solid 1px yellowgreen;
     text-align: center;
-   justify-content: center;
-   gap: 50px;
-   padding: 0px 10px 0px 10px;
-
-   
-}
+  }
 .homePage__container-form{
     display: flex;
+    
     justify-content: center;
-    min-width: 400px;
+    border: solid 1px red;
 }
 .homePage__form{
-   
+    
+    
    
    display: flex;
    flex-wrap: wrap;
-   padding-right: 15px;
+
 }
 .homePage__form-input{
     
     
-    min-width: 250px;
+    min-width: 200px;
     height: 30px;
     box-shadow: 5px 5px 15px gray;
     font-size: 15px;
@@ -74,8 +81,13 @@
 .homePage__form-button:hover{
     background-color:  rgb(182, 48, 48);
 }
+
+.homePage__footer{
+    height: 10%
+    
+}
 .homePage__footer-img{
-    padding-top: 20px;
-    min-width: 400%;
-    height: 200px;
+    width: 100%;
+    min-height: 100px;
+    border: solid 1px grey;
 }

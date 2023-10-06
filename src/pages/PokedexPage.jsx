@@ -26,6 +26,7 @@ const PokedexPage = () => {
   const cbFilter = (poke) => poke.name.includes(inputValue);
   return (
     <>
+      
       <img src={pokemon} alt="" className="pokedex__page-head" />
       <div className="pokedexPage__container">
         <div className="pokedexPage__description">

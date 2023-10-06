@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 export const mySlice = createSlice({
     name: 'trainer',
-    initialState: null,
+    initialState: null, // ""
     reducers: {
        setTrainerG:(state,action)=> action.payload
        

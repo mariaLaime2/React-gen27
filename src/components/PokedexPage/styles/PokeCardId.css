@@ -1,0 +1,266 @@
+.idPageContainer{
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 600px;
+  
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.idPage__container1 {
+    border: solid 1px rgb(240, 240, 247);
+    display: flex;
+    flex-direction: column;
+    
+    
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+  }
+  .idPage__header{
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+    padding-top: 20px;
+  }
+  
+  .pokeId__img {
+    width: 200px;
+  }
+  .idPage__id {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 350px;
+    padding-bottom: 10px;
+  }
+  .idPage__containerIdNumber{
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+  }
+  .idPage__idNumber {
+    width: 40px;
+    border: solid 1px rgb(146, 145, 145);
+    border-radius: 2px;
+    font-size: 25px;
+    text-align: center;
+    
+  }
+  .idPage__name {
+    font-size: 25px;
+  
+  }
+  .idPage__description {
+    padding-top: 10px;
+  
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    min-width: 350px;
+    padding-bottom: 30px;
+  }
+  .idPage__description-p {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+  }
+  .idPage__description-span {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  
+  .idPage__ability__container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    min-width: 350px;
+  }
+  .idPage__ability {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+  }
+  .idPage__ability-title {
+    font-size: 20px;
+    text-align: center;
+  }
+  .idPage__abilities-p {
+    
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 9px;
+    text-align: center;
+    background-color: rgb(201, 85, 201);
+    color: white;
+  }
+  
+  .idPage__type {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .idPage__type-p {
+    border: solid 1px rgb(197, 193, 193);
+    width: 100px;
+    height: 20px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+    font-weight: 800;
+  }
+.idPage__moves{
+    
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.idPage__moves-title{
+    
+    padding: 20px;
+    margin-left: 10px;
+    color: #5c5c5c;
+
+}
+.idPage__moves-container{
+  
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.idPage__moves-span{
+  padding: 10px;
+   border-radius: 50px;
+   background-color: #E5E5E5;
+   
+
+}
+
+.idPage__stats{
+  
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  
+}
+.idPage__stats-title{
+  padding-left: 30px;
+  color: #6f7070;
+}
+.pokecard__stat{
+  
+  padding: 10px;
+}
+.idPage__stats-div{
+  
+  background-color: rgb(200,204,204);
+  
+  border: solid 1px rgb(182, 181, 181);
+  width: 82%;
+  
+}
+.porcen{
+  text-align: right;
+  padding: 4px;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+  .fire-gradient{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+
+}
+.grass-gradient{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+
+}
+.water-gradient {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+
+.normal-gradient{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bug-gradient{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+
+}
+.fighting-gradient{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+
+}
+.poison-gradient{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+
+}
+.ghost-gradient{
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+
+}
+.rock-gradient{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+    ;
+}
+.ice-gradient{
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+
+}
+.dark-gradient{
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+
+}
+.fairy-gradient{
+background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+.ground-gradient{
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+
+}
+.electric-gradient{
+    background: linear-gradient(179.75deg, #7d8004 -19.96%, #dfd228 43.67%, #ecf002 138.4%)
+}
+.fire-color{
+    color: #ce5f1a;
+}
+.electric-color{
+    color:#dfd228
+}
+.ground-color{
+color: #895C1A;
+}
+.fairy-color{
+    color: #971B45;
+}
+.ghost-color{
+    color:  #454AA8;
+}
+.poison-color{
+    color: #A564E3;
+}
+.fighting-color{
+    color:#F1613C  ;
+}
+.bug-color{
+    color: #3BB039;
+  }
+.water-color{
+    color: #82B2F1;
+}
+.grass-color{
+    color:  #ABDAC6;
+}
+.fire-color{
+    color:#E35825 ;
+}
