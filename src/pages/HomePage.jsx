@@ -4,7 +4,7 @@ import { setTrainerG } from "../store/slices/trainerName.slice";
 import { useNavigate } from "react-router-dom";
 import "../pages/StylesPages/HomePage.css";
 import pokedexImage from "../assets/pokedex-title.png";
-import pokedexBaner from "../assets/baner-pokemon.png";
+import pokedexBaner from "../assets/pokemon.png";
 
 const HomePage = () => {
   const inputTrainer = useRef();
@@ -17,6 +17,7 @@ const HomePage = () => {
   };
   return (
     <>
+      <img className="homePage__footer-img" src={pokedexBaner} alt="" />
       <div className="homePage__container">
         <div className="homePage__container-img">
           <img src={pokedexImage} alt="" className="homePage__img" />
@@ -24,7 +25,7 @@ const HomePage = () => {
         <div className="homePage__container-description">
           <h2 className="homePage__title">¡Hi Trainer !</h2>
           <p className="homePage__paragraph">
-            To start with the app, give me your trainer
+            To start with the app, give me your name
           </p>
         </div>
         <div className="homePage__container-form">
@@ -40,10 +41,6 @@ const HomePage = () => {
           </form>
         </div>
       </div>
-      <footer className="homePage__footer">
-      
-      <img className="homePage__footer-img" src={pokedexBaner} alt="" />
-      </footer>
     </>
   );
 };

@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 import { useEffect } from "react";
-import "./StylesPages/PokeIdPage.css"
+import "./StylesPages/PokeIdPage.css";
 import pokemons from "../assets/pokemon.png";
 import PokeCardId from "../components/PokedexPage/PokeCardId";
 const PokeIdPage = () => {
@@ -15,12 +15,8 @@ const PokeIdPage = () => {
   return (
     <>
       <img src={pokemons} alt="" />
-      <button>back</button>
       <div className="idPage__container-cards">
-        <PokeCardId
-          pokemon={pokemon}
-        />
-       
+        <PokeCardId pokemon={pokemon} />
       </div>
     </>
   );

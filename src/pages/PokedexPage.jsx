@@ -5,12 +5,14 @@ import PokeCard from "../components/PokedexPage/PokeCard";
 import SelectType from "../components/PokedexPage/SelectType";
 import "../pages/StylesPages/PokedexPage.css";
 import pokemon from "../assets/pokemon.png";
+
 const PokedexPage = () => {
   const [inputValue, setInputValue] = useState("");
   const [selectValue, setSelectValue] = useState("allPokemons");
   const trainer = useSelector((reducer) => reducer.trainer);
-  const url = "https://pokeapi.co/api/v2/pokemon?offset=0&limit=600";
+  const url = "https://pokeapi.co/api/v2/pokemon?offset=0&limit=12";
   const [pokemons, getAllPokemons, getAllPokemonsByType] = useFetch(url);
+
   useEffect(() => {
     if (selectValue === "allPokemons") {
       getAllPokemons();
@@ -26,15 +28,13 @@ const PokedexPage = () => {
   const cbFilter = (poke) => poke.name.includes(inputValue);
   return (
     <>
-      
-      <img src={pokemon} alt="" className="pokedex__page-head" />
+      <img src={pokemon} alt="" />
       <div className="pokedexPage__container">
         <div className="pokedexPage__description">
           <p className="pokedexPage__description-p">
-            <span className="pokedexPage__description-span">
-              Welcome {trainer}
-            </span>
-            , here you can find your favorite pokemon.
+            Welcome {""}
+            <span className="pokedexPage__description-span">{trainer}</span>,
+            here you can find your favorite pokemon.
           </p>
         </div>
         <div className="pokedex__forms">
@@ -43,9 +43,9 @@ const PokedexPage = () => {
               ref={inputSearch}
               type="text"
               className="pokedex__form-input"
-              placeholder="serch a pokemon"
+              placeholder="search a pokemon"
             />
-            <button className="pokedex__form-button">serch</button>
+            <button className="pokedex__form-button">search</button>
           </form>
           <SelectType
             setSelectValue={setSelectValue}
