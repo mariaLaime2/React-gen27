@@ -22,9 +22,9 @@ const Proyects = () => {
         />
         <ProjectItem
           img={pokedex}
-          url="https://glittery-gumption-424407.netlify.app/"
+          url="https://pokedex-msl.netlify.app/"
           title="Pokedex"
-          urlG="https://github.com/mariaLaime2/React-gen27/tree/Entregable-5/src/pages-"
+          urlG="https://github.com/mariaLaime2/React-gen27/tree/pokedex/public"
         />
         <ProjectItem
           img={rickAndMorty}
