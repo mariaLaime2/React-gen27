@@ -5,6 +5,8 @@ import react from "../assets/react.png";
 import js from "../assets/js.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
+import gitHub from "../assets/GitHub-Mark.png"
+import vite from "../assets/image10.png"
 import PDFDownloadButton from "./PDFDownloadButton";
 import pdfFile from "../assets/Cv-Ms.pdf";
 
@@ -17,13 +19,16 @@ const AboutMe = () => {
       <section className="aboutMe__div">
         <h1 className="aboutMe__h1 pb-5">Sobre mi</h1>
         <p className="font-serif text-gray-700 text-lg">
-          Hola, soy María Soledad Laime. Cuento con una sólida formación en
-          tecnologías web modernas y un apasionado enfoque en la creación de
-          experiencias de usuario satisfactorias. Estoy emocionada por el futuro
-          de la tecnología y cómo puedo seguir contribuyendo a él. Siempre
-          buscando oportunidades para aprender y crecer en un entorno
-          colaborativo. <br />
-          ¡Gracias por visitar mi portafolio!
+          Hola, soy María Soledad Laime. Poseo una sólida formación en
+          tecnologías de desarrollo web modernas. Estoy en busca de
+          oportunidades para seguir aprendiendo y crecer en un entorno
+          colaborativo participando en proyectos desafiantes para crear
+          soluciones innovadoras que satisfagan las necesidades de los usuarios.
+          Me entusiasma el futuro de la tecnología y estoy emocionada por
+          continuar contribuyendo a él. 
+          <br />
+          <br />
+          ¡Agradezco tu visita a mi portafolio!
         </p>
         <div className="text-center pt-5">
           <PDFDownloadButton pdfUrl={pdfFile} fileName="cvMaria.pdf" />
@@ -55,6 +60,10 @@ const AboutMe = () => {
           <div className="aboutMe__skills__img">
             <img src={tailwind} alt="" className="aboutMe__skills-img" />
             <h2 className="aboutMe__skills-h2">Tailwind</h2>
+          </div>
+          <div className="aboutMe__skills__img">
+            <img src={vite} alt="" className="aboutMe__skills-img" />
+            <h2 className="aboutMe__skills-h2">Vite</h2>
           </div>
         </div>
       </section>
