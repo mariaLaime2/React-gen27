@@ -6,7 +6,7 @@ import js from "../assets/js.png";
 import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import PDFDownloadButton from "./PDFDownloadButton";
-import pdfFile from "../assets/cvMs.pdf";
+import pdfFile from "../assets/Cv-Ms.pdf";
 
 const AboutMe = () => {
   return (

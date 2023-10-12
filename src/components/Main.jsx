@@ -19,7 +19,7 @@ const Main = () => {
                 // Same substring at the start will only be typed out once, initially
                 "Front-end",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Front-end Developer",
+                "Front-end Developer Jr",
                 1000,
               ]}
               wrapper="span"
@@ -44,7 +44,7 @@ const Main = () => {
                 size={40}
               />
             </a>
-            <a href="https://w.app/p7Q2Yq" target="blanck">
+            <a href="https://wa.me/543884606839" target="blanck">
               <BsWhatsapp
                 className="cursor-pointer text-white hover:text-violet-600"
                 size={35}

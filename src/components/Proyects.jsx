@@ -2,7 +2,7 @@ import ProjectItem from "./ProjectItem";
 import EcommerceReact from "../assets/Ecommerce-react.png";
 import ecommercejs from "../assets/ecommercejs.png";
 import rickAndMorty from "../assets/Rick.png";
-import pokedex from "../assets/pokedex.png";
+import pokedex from "../assets/CPOKEDEX.png";
 import "./styles/Projects.css";
 
 const Proyects = () => {
