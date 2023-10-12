@@ -14,7 +14,7 @@ const FormLocation = ({ setIdLocation }) => {
   };
   return (
     <form onSubmit={handleSubmit} className="form">
-      <input name="inputLocation" type="text" className="form__input" />
+      <input name="inputLocation" type="text" className="form__input" placeholder="Id from 0 to 160"/>
       <button className="form__button">search</button>
     </form>
   );

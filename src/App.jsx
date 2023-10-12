@@ -23,13 +23,13 @@ function App() {
   }, [idLocation]);
 
   return (
-    <>
-      <div className="imeg-container">
+    <div className="container">
+      <section className="imeg-container">
         <HeadBoard image1={image1} image2={image2} />
-      </div>
-      <div className="form-container">
+      </section>
+      <section className="form-container">
         <FormLocation setIdLocation={setIdLocation} />
-      </div>
+      </section>
 
       {isLoading ? (
         <Loader />
@@ -50,7 +50,7 @@ function App() {
           </div>
         </>
       )}
-    </>
+    </div>
   );
 }
 
