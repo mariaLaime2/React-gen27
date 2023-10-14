@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export const CategoryCard = ({ category, alt, src, gradientColor }) => {
+export const CategoryCard = ({ category, src, alt, gradientColor }) => {
   return (
     <div>
       <Link
