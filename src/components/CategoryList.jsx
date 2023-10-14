@@ -12,7 +12,7 @@ const [
 ] = imgs;
 export const CategoryList = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-4 mt-10 ">
+    <div className="flex flex-row flex-wrap justify-center gap-4 mt-10 mb-10 ">
         {/**Category ciencia */}
       <CategoryCard 
       category={categories.ciencia} 
