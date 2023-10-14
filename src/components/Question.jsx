@@ -46,7 +46,7 @@ export const Question = ({
           onReset={onReset}
         />
       ) : (
-        <div className="flex flex-col justify-between shadow-md shadow-slate-300 w-500 min-w-350 h-[600px] ml-2 mr-2 mt-10 border border-solid p-10 rounded-lg ">
+        <div className="flex flex-col justify-between shadow-md shadow-slate-300 w-500 min-w-350 h-[600px] ml-2 mr-2 mt-10 mb-10 border border-solid p-10 rounded-lg ">
           <div className="flex justify-between">
             <span className="text-xl font-bold">
               {/**numero de pregunta actuaal numero de preguntas totales */}
