@@ -10,7 +10,7 @@ const shuffleArray = (array) => {
 export const CategoryPage = () => {
   const { category } = useParams();
   const [imgCategory] = imgs.filter(
-    img => img === `/src/assets/${category}.png`
+    img => img === `/src/assets/${category.toLowerCase()}.png`
   );
   const [questionsFiltered, setQuestionsFilter] = useState(
     questions.filter((question) => question.category === category)
