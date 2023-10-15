@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { questions, imgs } from "../data";
 import { Question } from "../components/Question";
+import triviaImg from "../assets/trivia.jpg";
 //funicon para barajar las preguntas de cada categoria y tambien reducila al numero de 5
 const shuffleArray = (array) => {
   const newArray = array.sort(() => Math.random() - 0.5);
@@ -37,11 +38,11 @@ export const CategoryPage = () => {
       ) : (
         <>
           <div className="flex flex-col gap-5 border-black-1000 mt-10 p-10 rounded-lg">
-            <h1 className="text-3xl text-teal-900 text-center font-bold">
+            <h1 className="text-5xl text-teal-900 text-center font-bold">
               {category}
             </h1>
             <div className="flex justify-center items-center">
-              <img src={imgCategory} alt={category} className="w-72" />
+              <img src={triviaImg} alt={category} className="w-64" />
             </div>
           </div>
           <button
