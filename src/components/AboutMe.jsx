@@ -7,8 +7,9 @@ import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import gitHub from "../assets/GitHub-Mark.png"
 import vite from "../assets/image10.png"
+import git from "../assets/git.png"
 import PDFDownloadButton from "./PDFDownloadButton";
-import pdfFile from "../assets/Cv-Ms.pdf";
+import pdF from "../assets/cV-Msl-O.pdf"
 
 const AboutMe = () => {
   return (
@@ -31,7 +32,7 @@ const AboutMe = () => {
           ¡Agradezco tu visita a mi portafolio!
         </p>
         <div className="text-center pt-5">
-          <PDFDownloadButton pdfUrl={pdfFile} fileName="cvMaria.pdf" />
+          <PDFDownloadButton pdfUrl={pdF} fileName="cvMaria.pdf" />
         </div>
       </section>
       <section className="aboutMe__skills">
@@ -64,6 +65,14 @@ const AboutMe = () => {
           <div className="aboutMe__skills__img">
             <img src={vite} alt="" className="aboutMe__skills-img" />
             <h2 className="aboutMe__skills-h2">Vite</h2>
+          </div>
+          <div className="aboutMe__skills__img">
+            <img src={gitHub} alt="" className="aboutMe__skills-img" />
+            <h2 className="aboutMe__skills-h2">GitHub</h2>
+          </div>
+          <div className="aboutMe__skills__img">
+            <img src={git} alt="" className="aboutMe__skills-img" />
+            <h2 className="aboutMe__skills-h2">Git</h2>
           </div>
         </div>
       </section>
