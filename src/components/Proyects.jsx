@@ -20,35 +20,35 @@ const Proyects = () => {
           url="https://timely-fox-ed46b0.netlify.app/"
           title="Ecommerce"
           urlG="  https://github.com/mariaLaime2/React-gen27/tree/E-Commerce-react "
-          tech="JavaScript React Css"
+          tech="Ecommerce web de productos electronicos simulando una tienda online."
         />
         <ProjectItem
           img={pokedex}
           url="https://pokedex-msl.netlify.app/"
           title="Pokedex"
           urlG="https://github.com/mariaLaime2/React-gen27/tree/pokedex/public"
-          tech=" JavaScript React Css "
+          tech="Aplicación web que te permite ver la información de tus pokemons favoritos."
         />
         <ProjectItem
           img={rickAndMorty}
           url="https://rick-and-mortyc2d3da.netlify.app/"
           title="Rick And Morty"
           urlG="https://github.com/mariaLaime2/React-gen27/tree/Rick-And-Morty"
-          tech=" Javascrpt React Css"
+          tech="Aplicación web que te permita ver personajes de la serie Rick and Morty por su locación."
         />
         <ProjectItem
           img={quiz}
           url="https://sweet-fudge-e0ce39.netlify.app/"
           title="Quiz App"
           urlG="https://github.com/mariaLaime2/React-gen27/tree/Quiz-App"
-          tech=" JavaScript React Tailwind"
+          tech="Aplicacion web para poner a prueba tus conocimientos en Educacion y entretenimiento."
         />
          <ProjectItem
           img={ecommercejs}
           url="https://e-commerce-gen25-msl.netlify.app/"
           title="EcommerceJs"
           urlG=" https://github.com/mariaLaime2/carrito_generacion25"
-          tech=" Javascript Html Css "
+          tech=" Ecommerce de productos Academlo."
         />
       </div>
     </div>

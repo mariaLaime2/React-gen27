@@ -9,7 +9,7 @@ import gitHub from "../assets/GitHub-Mark.png"
 import vite from "../assets/image10.png"
 import git from "../assets/git.png"
 import PDFDownloadButton from "./PDFDownloadButton";
-import pdF from "../assets/cV-Msl-O.pdf"
+import pdF from "../assets/cV-Msl-or.pdf"
 
 const AboutMe = () => {
   return (
@@ -32,7 +32,7 @@ const AboutMe = () => {
           ¡Agradezco tu visita a mi portafolio!
         </p>
         <div className="text-center pt-5">
-          <PDFDownloadButton pdfUrl={pdF} fileName="cvMaria.pdf" />
+          <PDFDownloadButton pdfUrl={pdF} fileName="c-V-MariaLaime.pdf" />
         </div>
       </section>
       <section className="aboutMe__skills">
