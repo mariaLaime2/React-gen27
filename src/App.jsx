@@ -14,6 +14,9 @@ function App() {
       <AboutMe />
       <Proyects />
       <Contact />
+      <footer className="footer-app">
+      <p>© 2023 Maria soledad Laime. Todos los derechos reservados.</p>
+    </footer>
     </div>
   
   );
