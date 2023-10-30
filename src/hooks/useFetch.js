@@ -43,7 +43,7 @@ const useFetch = (baseUrl, callback) => {
   const updateApi = (path, id, data) => {
     const url = `${baseUrl}${path}/${id}/`;
     axios
-      .patch(url, data)
+      .put(url, data)
       .then((resp) => {
         console.log(resp.data);
         const infoApiMapped = infoApi.map((e) => (e.id === id ? resp.data : e));
