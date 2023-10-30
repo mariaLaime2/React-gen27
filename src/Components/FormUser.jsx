@@ -94,7 +94,7 @@ const FormUser = ({
           />
         </div>
         <div className="formuser__group">
-          <label className="formuser__label" htmlFor="birthday">
+          <label className="formuser__label" htmlFor="birthdhay">
             Birthday
           </label>
           <input
