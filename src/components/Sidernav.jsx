@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineHome, AiOutlineProject, AiOutlineMail } from "react-icons/ai";
 
-import { BsPerson } from "react-icons/bs";
+import { BsPerson, BsTools } from "react-icons/bs";
 
 const Sidernav = () => {
   const [nav, setNav] = useState(false);
@@ -31,7 +31,7 @@ const Sidernav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineHome size={20} />
-            <span className=" pl-4 "> Home</span>
+            <span className=" pl-4 ">Inicio</span>
           </a>
           <a
             onClick={handleNav}
@@ -39,7 +39,15 @@ const Sidernav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsPerson size={20} />
-            <span className="pl-4">AboutMe</span>
+            <span className="pl-4">Acerca de mi</span>
+          </a>
+          <a
+            onClick={handleNav}
+            href="#habilities"
+            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+          >
+            <BsPerson size={20} />
+            <span className="pl-4">Habilidades</span>
           </a>
 
           <a
@@ -48,7 +56,7 @@ const Sidernav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineProject size={20} />
-            <span className="pl-4"> Projects</span>
+            <span className="pl-4">Proyectos</span>
           </a>
 
           <a
@@ -57,7 +65,7 @@ const Sidernav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineMail size={20} />
-            <span className="pl-4"> Contact</span>
+            <span className="pl-4"> Contacto</span>
           </a>
         </div>
       ) : (
@@ -73,27 +81,32 @@ const Sidernav = () => {
             href="#main"
             className=" rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            {hovered ? "Home" : <AiOutlineHome size={20} />}
+            {hovered ? "Inicio" : <AiOutlineHome size={20} />}
           </a>
           <a
             href="#aboutMe"
             className="rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            {hovered ? "AboutMe" : <BsPerson size={20} />}
+            {hovered ? "Acerca de mi" : <BsPerson size={20} />}
           </a>
-
+          <a
+            href="#habilities"
+            className="rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
+          >
+            {hovered ? "Habilidades" : <BsTools size={20} />}
+          </a>
           <a
             href="#projects"
             className="rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            {hovered ? "Projects" : <AiOutlineProject size={20} />}
+            {hovered ? "Proyectos" : <AiOutlineProject size={20} />}
           </a>
 
           <a
             href="#contact"
             className="rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            {hovered ? "Contact" : <AiOutlineMail size={20} />}
+            {hovered ? "Contacto" : <AiOutlineMail size={20} />}
           </a>
         </div>
       </div>

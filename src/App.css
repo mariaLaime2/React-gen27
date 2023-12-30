@@ -1,7 +1,9 @@
 .div__container{
     text-align: left;
+    background-color: #030014;
 }
 .footer-app{
-    background-color: rgb(182, 120, 240);
+    background-color: rgb(101, 38, 160);
+    color: white;
     text-align: center;
 }

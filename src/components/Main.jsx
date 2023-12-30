@@ -1,59 +1,177 @@
 import { GrGithub } from "react-icons/gr";
-import background from "../assets/background.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import ParticlesContainer from "./ParticlesContainer";
+import CatF from "../assets/cat-frent.png";
+import CatL from "../assets/cat-cost.png";
+
+import "./styles/Main.css";
+import { useMediaQuery } from "@react-hook/media-query";
 
 const Main = () => {
+  const isMovile= useMediaQuery("(max-width:640px)")
   return (
-    <div id="main">
-      <img className="w-full h-screen object-left" src={background} alt="/" />
-      <div className="w-full h-screen absolute top-0 left-0 ">
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-violet-600">
-            {" "}
-            Maria Soledad Laime
-          </h1>
-          <h2 className=" flex sm:text-1xl text-0xl pt-4 text-pink-500">
-            <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
-                "Fullstack",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Fullstack Developer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{ fontSize: "2em", display: "inline-block" }}
-              repeat={Infinity}
-            />
-          </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a
-              href="https://www.linkedin.com/in/maria-laime-157b16280"
-              target="blanck"
-            >
-              <BsLinkedin
-                className="cursor-pointer text-white hover:text-violet-600"
-                size={35}
-              />
-            </a>
-            <a href="https://github.com/mariaLaime2" target="blanck">
-              <GrGithub
-                className="cursor-pointer text-white hover:text-violet-600"
-                size={40}
-              />
-            </a>
-            <a href="https://wa.me/543884606839" target="blanck">
-              <BsWhatsapp
-                className="cursor-pointer text-white hover:text-violet-600"
-                size={35}
-              />
-            </a>
+    <div>
+      {
+        isMovile?(
+          <div
+            id="main"
+            className="w-full h-screen object-left bg-[#030014] flex "
+           >
+            <div className="absolute z-10"></div>
+            <div className="relative flex flex-col h-full w-full">
+              <video
+                autoPlay
+                muted
+                loop
+                className="rotate-180 absolute top-[-319px] left-0 z-[1] w-full h-full object-cover"
+              >
+                <source src="/blackhole.webm" type="video/webm" />
+              </video>
+              
+            </div>
+          
+            {/*<img className="w-full h-screen object-left" src={background} alt="/" />*/}
+            <ParticlesContainer />
+            <div className="w-full h-screen absolute  top-0 left-0 z-10  border border-red-500">
+              <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center border border-red  flex">
+      
+                <h1 className="sm:text-5xl text-4xl font-bold text-violet-100">
+                  {" "}
+                  Maria Soledad Laime
+                </h1>
+                <h2 className=" flex sm:text-1xl text-0xl pt-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed out once, initially
+                      "Fullstack",
+                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      "Fullstack Developer",
+                      1000,
+                    ]}
+                    wrapper="span"
+                    speed={50}
+                    style={{ fontSize: "2em", display: "inline-block" }}
+                    repeat={Infinity}
+                  />
+                </h2>
+      
+                <div className="flex justify-between pt-6 max-w-[200px] w-full border border-blue-500">
+                  <a
+                    href="https://www.linkedin.com/in/maria-laime-157b16280"
+                    target="blanck"
+                  >
+                    <BsLinkedin
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={35}
+                    />
+                  </a>
+                  <a href="https://github.com/mariaLaime2" target="blanck">
+                    <GrGithub
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={40}
+                    />
+                  </a>
+                  <a href="https://wa.me/543884606839" target="blanck">
+                    <BsWhatsapp
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={35}
+                    />
+                  </a>
+                  
+                </div>
+               
+            
+              </div>
+              
+            </div>
+            
           </div>
-        </div>
-      </div>
-    </div>
+
+
+
+        ):(
+      
+          <div
+            id="main"
+            className="w-full h-screen object-left bg-[#030014] flex "
+           >
+            <div className="absolute z-10"></div>
+            <div className="relative flex flex-col h-full w-full">
+              <video
+                autoPlay
+                muted
+                loop
+                className="rotate-180 absolute top-[-319px] left-0 z-[1] w-full h-full object-cover"
+              >
+                <source src="/blackhole.webm" type="video/webm" />
+              </video>
+              
+            </div>
+          
+            {/*<img className="w-full h-screen object-left" src={background} alt="/" />*/}
+            <ParticlesContainer />
+            <div className="w-full h-screen absolute  top-0 left-0 z-10  border border-red-500">
+              <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center border border-red  flex">
+      
+                <h1 className="sm:text-5xl text-4xl font-bold text-violet-100">
+                  {" "}
+                  Maria Soledad Laime
+                </h1>
+                <h2 className=" flex sm:text-1xl text-0xl pt-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed out once, initially
+                      "Fullstack",
+                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      "Fullstack Developer",
+                      1000,
+                    ]}
+                    wrapper="span"
+                    speed={50}
+                    style={{ fontSize: "2em", display: "inline-block" }}
+                    repeat={Infinity}
+                  />
+                </h2>
+      
+                <div className="flex justify-between pt-6 max-w-[200px] w-full border border-blue-500">
+                  <a
+                    href="https://www.linkedin.com/in/maria-laime-157b16280"
+                    target="blanck"
+                  >
+                    <BsLinkedin
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={35}
+                    />
+                  </a>
+                  <a href="https://github.com/mariaLaime2" target="blanck">
+                    <GrGithub
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={40}
+                    />
+                  </a>
+                  <a href="https://wa.me/543884606839" target="blanck">
+                    <BsWhatsapp
+                      className="cursor-pointer text-white hover:text-violet-600"
+                      size={35}
+                    />
+                  </a>
+                  
+                </div>
+                <article className="container-img absolute border border-red-500 left-70  mt-40  ">
+                  <img src={CatL} alt="" />
+                  <img src={CatL} alt="" />
+                </article>
+            
+              </div>
+              
+            </div>
+            
+          </div>
+
+        )
+      }
+   </div>
   );
 };
 

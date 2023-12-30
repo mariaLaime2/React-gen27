@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Proyects from "./components/Proyects";
 import Sidernav from "./components/Sidernav";
+import Habilities from "./components/habilities";
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       <Sidernav />
       <Main />
       <AboutMe />
+      <Habilities/>
       <Proyects />
+      
       <Contact />
       <footer className="footer-app">
-      <p>© 2023 Maria soledad Laime. Todos los derechos reservados.</p>
+      <p> Maria soledad Laime ❤️ </p>
     </footer>
     </div>
   

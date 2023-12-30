@@ -1,6 +1,3 @@
-
-import "./styles/Projects.css";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -8,18 +5,9 @@ import "swiper/css/free-mode";
 import { FreeMode, Pagination } from "swiper/modules";
 import { ServiceData } from "./constants";
 import { GrGithub } from "react-icons/gr";
-
-
-const Proyects = () => {
-  
+const ActiveSlider = () => {
   return (
-    <div
-      id="projects"
-      className="max-w-[1040px] w-full h-screen m-auto md:pl-20 p-4 py-15   projects__container flex flex-col gap-10"
-      >
-      <h1 className="projects__title  pt-9 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ">Proyectos</h1>
-      <div>
-
+    <div className="">
       <Swiper
         breakpoints={{
           340: {
@@ -27,7 +15,7 @@ const Proyects = () => {
             spaceBetween: 15,
           },
           700: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 15,
           },
         }}
@@ -39,13 +27,13 @@ const Proyects = () => {
         
         >
         {ServiceData.map((item) => (
-          <SwiperSlide key={item.title} className="pb-10 " >
-            <div className="relative max-w-[1040px]  rounded-xl group hover:bg-gradient-to-r from-gray-200 to-violet-500 ">
+            <SwiperSlide key={item.title}>
+            <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#cc5993]">
               <img
                 src={item.backgroundImage}
                 alt=""
-                className="rounded-xl  group-hover:opacity-10  "
-                />
+                className="rounded-xl group-hover:opacity-10  "
+              />
               <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                 <h3 className="text-xl font-bold text-white tracking-wider text-center">
                   {item.title}
@@ -64,18 +52,12 @@ const Proyects = () => {
                   </a>
                 </section>
               </div>
-              
             </div>
             
           </SwiperSlide>
         ))}
         </Swiper>
-        </div>
-    
-      </div>
-      
-    
+    </div>
   );
 };
-
-export default Proyects;
+export default ActiveSlider;
