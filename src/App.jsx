@@ -5,6 +5,7 @@ import Main from "./components/Main";
 import Proyects from "./components/Proyects";
 import Sidernav from "./components/Sidernav";
 import Habilities from "./components/habilities";
+Habilities
 
 function App() {
   return (
