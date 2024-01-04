@@ -34,7 +34,7 @@ const AboutMe = () => {
             ¡Agradezco tu visita a mi portafolio!
           </p>
           <div className="text-center pt-5 mt-10 ">
-            <PDFDownloadButton pdfUrl={pdF} fileName="c-V-MariaLaime.pdf" />
+            <PDFDownloadButton pdfUrl={pdF} fileName="cvO-mSL.pdf" />
           </div>
         </div>
       </section>
