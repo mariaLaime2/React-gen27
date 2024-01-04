@@ -4,8 +4,7 @@ import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Proyects from "./components/Proyects";
 import Sidernav from "./components/Sidernav";
-import Habilities from "./components/habilities";
-Habilities
+import Habilities from "./components/Habiliti"
 
 function App() {
   return (
