@@ -4,15 +4,15 @@
      font-size: 40px;
      color: cyan;
      text-align: center;
-    
-    
-}
-.projects__container{
-    max-width: 600px
-}
-@import '../../swiper-vars.scss';
+     
+     
+    }
+    .projects__container{
+      max-width: 600px
+    }
 
-:root {
+    :root {
+  @import '../../swiper-vars.scss';
   
   --swiper-pagination-color: cyan;
   --swiper-pagination-bullet-size: 8px;

@@ -1,6 +1,6 @@
 import "./styles/AboutMe.css";
 import PDFDownloadButton from "./PDFDownloadButton";
-import pdF from "../assets/cV-Msl-or.pdf";
+import pdF from "../assets/cvO-mSL.pdf";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
