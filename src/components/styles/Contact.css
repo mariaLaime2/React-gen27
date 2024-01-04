@@ -1,13 +1,12 @@
 .contact__h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    -webkit-background-clip: text;
-    background-clip: text;
+   
     
     /* Degradado lineal */
-    background-image: linear-gradient(to right, #8a3ab9, #4dc0b5);
+   
     
     /* Fallback para navegadores que no soportan background-clip */
-    color: transparent;
+    color: cyan;
     text-align: center;
 }

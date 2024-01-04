@@ -21,13 +21,12 @@ const ActiveSlider = () => {
         }}
         freeMode={true}
         pagination={{
-            clickable: true,
+          clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        
-        >
+      >
         {ServiceData.map((item) => (
-            <SwiperSlide key={item.title}>
+          <SwiperSlide key={item.title}>
             <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#cc5993]">
               <img
                 src={item.backgroundImage}
@@ -53,10 +52,9 @@ const ActiveSlider = () => {
                 </section>
               </div>
             </div>
-            
           </SwiperSlide>
         ))}
-        </Swiper>
+      </Swiper>
     </div>
   );
 };

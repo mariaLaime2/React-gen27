@@ -3,9 +3,7 @@ import "./styles/Contact.css";
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-5 p-4 py-16  ">
-      <h1 className="py-4 text-4xl font-bold text-center  contact__h1">
-        Contacto
-      </h1>
+      <h1 className="py-4 text-4xl text-center  contact__h1">Contacto</h1>
       <form
         action="https://getform.io/f/f9e98f63-6e27-42a8-a1f0-f77c7097cef0"
         method="POST"
@@ -63,7 +61,7 @@ const Contact = () => {
             name="message"
           ></textarea>
         </div>
-        <button className=" h-10 bg-violet-500 hover:bg-violet-700 focus:bg-blue-700 text-white font-bold px-4 rounded w-full">
+        <button className=" h-10 bg-violet-600 hover:bg-violet-700 focus:bg-blue-700 text-white font-bold px-4 rounded w-full">
           Enviar
         </button>
       </form>

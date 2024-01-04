@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineHome, AiOutlineProject, AiOutlineMail } from "react-icons/ai";
 
 import { BsPerson, BsTools } from "react-icons/bs";
+import Whatsap from "../assets/Whatsap.png"
 
 const Sidernav = () => {
   const [nav, setNav] = useState(false);
@@ -39,14 +40,14 @@ const Sidernav = () => {
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <BsPerson size={20} />
-            <span className="pl-4">Acerca de mi</span>
+            <span className="pl-4">Sobre mi</span>
           </a>
           <a
             onClick={handleNav}
             href="#habilities"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-white shadow-violet-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
-            <BsPerson size={20} />
+            <BsTools size={20} />
             <span className="pl-4">Habilidades</span>
           </a>
 
@@ -71,7 +72,7 @@ const Sidernav = () => {
       ) : (
         ""
       )}
-      <div className="md:block hidden fixed top-[25%] z-10">
+      <div className=" md:block hidden fixed top-[25%] z-10 ">
         <div
           className="flex flex-col "
           onMouseEnter={handleMouseEnter}
@@ -87,7 +88,7 @@ const Sidernav = () => {
             href="#aboutMe"
             className="rounded-full shadow-lg bg-gray-100 shadow-violet-400 m-2 p-4 inline-block text-violet-900 cursor-pointer hover:scale-110 ease-in duration-300"
           >
-            {hovered ? "Acerca de mi" : <BsPerson size={20} />}
+            {hovered ? "Sobre mi" : <BsPerson size={20} />}
           </a>
           <a
             href="#habilities"
@@ -109,6 +110,11 @@ const Sidernav = () => {
             {hovered ? "Contacto" : <AiOutlineMail size={20} />}
           </a>
         </div>
+      </div>
+      <div  style={{width:60,height:60,position:"fixed",zIndex:999,right:10,bottom:40}}>
+        <a href="https://wa.me/543884606839" target="blank">
+       <img src={Whatsap} alt="" style={{width:60,height:60}} />
+         </a>
       </div>
     </div>
   );

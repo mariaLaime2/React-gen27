@@ -2,7 +2,7 @@
 .projects__title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      font-size: 40px;
-    
+     color: cyan;
      text-align: center;
     
     
@@ -14,7 +14,7 @@
 
 :root {
   
-  --swiper-pagination-color: rgb(101, 38, 160);
+  --swiper-pagination-color: cyan;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-width: 8px;
   --swiper-pagination-bullet-height: 8px;

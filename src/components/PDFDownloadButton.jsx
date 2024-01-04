@@ -8,7 +8,9 @@ const PDFDownloadButton = ({ pdfUrl, fileName }) => {
 
   return (
     <button
-      className=" p-2 h-15 min-w-1/2 bg-violet-500 hover:bg-violet-700 focus:bg-blue-700 text-white font-bold px-4 text-center  rounded"
+    
+      className="  p-2 h-15 min-w-1/2 bg-violet-600 hover:bg-violet-700 text-white font-bold px-4 text-center  rounded"
+      
       onClick={handleDownload}
     >
       Descargar C.V

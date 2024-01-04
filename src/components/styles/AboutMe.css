@@ -8,8 +8,42 @@
   padding: 50px 0 20px 20px;
   display: flex;
   flex-direction: column;
+  margin: 10% auto 0;
+  position: relative;
+  background: linear-gradient(0deg,rgb(0, 0, 0),rgb(44,43,43));
 }
-
+.planet-background-1 {
+  background: radial-gradient(80.36% 80.36% at 18.95% 26.51%, #0e8db4 0.56%, #0e96c7 9.37%, #156a9b 21.1%, #5DA9FF 34.46%, #557ffd 49.03%, #4e48f8 64.42%, #4834fd 68.44%, #4125f8 74.32%, #552EE5 82.82%, #5315C6 92.87%, #5200AB 100%);
+  background-size: 150% 150%;
+  animation: none; /* Disable the initial rotation animation */
+}
+.aboutMe__div-glow::before, .aboutMe__div-glow::after{
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg,#e6fb04,#ff6600,#00ff66,#00ffff,#ff00ff,#ff0099,#6e0dd0,#ff3300,#099fff);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate{
+0%{
+background-position: 0 0;
+}
+50%{
+  background-position: 400% 0;
+}
+100%{
+  background-position: 0 0;
+}
+}
+.aboutMe__div-glow::after{
+  filter: blur(40%);
+  opacity: 0.99;
+}
 .aboutMe__skills__container {
   gap: 10px;
   display: flex;
@@ -44,7 +78,7 @@
 .aboutMe__h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 30px;
-  color: rgb(59, 10, 104);
+  color: cyan;
   text-align: center;
 }
 .aboutMe__skills-h2 {
